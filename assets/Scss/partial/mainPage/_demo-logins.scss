@@ -1,0 +1,35 @@
+#demo-logins {
+  .live-demo {
+    font-size: 52px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  #cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .col-4 {
+      .cards {
+        width: 380px;
+        margin: 20px 100px;
+        padding: 30px;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px rgb(183, 183, 183);
+        .card {
+          width: 300px;
+
+          h3 {
+            font-size: 28px;
+            color: black;
+          }
+
+          p {
+            font-size: 20px;
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}

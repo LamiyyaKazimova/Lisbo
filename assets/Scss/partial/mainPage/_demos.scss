@@ -1,0 +1,31 @@
+#demos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+    h2{
+        font-size: 52px;
+    }
+
+    img{
+        width: 500px;
+        height: 500px;
+    }
+
+    h3{
+        font-size: 24px;
+        margin-top: 50px;
+
+        a{
+            text-decoration: none;
+            color: black;
+            transition: color 0.5s ease;
+
+            &:hover{
+             color: #ff0080;
+            }
+        }
+    }
+}
